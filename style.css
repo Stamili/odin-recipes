@@ -1,0 +1,14 @@
+* {
+    font-family: "Trebuchet MS", sans-serif; 
+    font-size: 28px;
+    font-weight: bolder;
+    color: rgb(233, 36, 69);
+    background-color: rgb(15, 15, 15);
+}
+
+h1 {
+    font-family: Arial, Georgia, sans-serif;
+    font-size: 56px;
+    color: yellow;
+    text-align: center;
+}
