@@ -1,8 +1,18 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 * {
     font-family: "Trebuchet MS", sans-serif; 
     font-size: 16px;
     color: #ffdead;
-    background-color: rgb(15, 15, 15);
+    background-color: rgb(17, 17, 17);
 }
 
 img {
@@ -12,14 +22,14 @@ img {
 
 h1 {
     font-family: Arial, Georgia, sans-serif;
-    font-size: 56px;
+    font-size: 64px;
     color: yellow;
     text-align: center;
 }
 
 h2, h3, .entry {
-    font-size: 36px;
-    color: rgb(221, 33, 33);
+    font-size: 32px;
+    color: whitesmoke;
 }
 
 .center {
@@ -27,4 +37,27 @@ h2, h3, .entry {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+.main-heading {
+    background-color: rgb(54, 54, 54);
+    padding: 30px;
+    border-top: 10px solid rgb(126, 128, 31);
+    border-right: 10px solid rgb(126, 128, 31);
+    border-left: 10px dashed yellow;
+    border-bottom: 10px dashed yellow;
+    margin: 0 auto;
+    width: 600px;
+}
+
+.entry {
+    padding: 20px;
+    background-color: rgb(48, 11, 107);
+    display: inline-block;
+    margin: 10px auto;
+    width: 450px;
+}
+
+.top {
+    margin-top: 100px;
 }
